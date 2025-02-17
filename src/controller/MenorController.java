@@ -9,7 +9,7 @@ public class MenorController {
 		if(t == 0) {
 			return m;
 		} else {
-		//Chamada dos passos: Comparação de valores das últimas posições, retorna o menor valor e chama novamente passando tamanho - 1
+		//Chamada dos passos: Comparação de valores do número passado com a ultima posição do vetor, retorna o menor valor e chama novamente passando tamanho - 1
 			if (v[t] < m) {
 				return menorN(v, t-1, v[t]);
 			} else {
